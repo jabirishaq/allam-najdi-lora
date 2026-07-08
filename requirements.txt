@@ -1,0 +1,18 @@
+# Exact dependency versions used for the ALLaM-7B Najdi LoRA fine-tune.
+# Tested on Google Colab free-tier T4 GPU (15GB VRAM), CUDA 12.x.
+#
+# bitsandbytes is pinned to "latest at time of training" rather than an
+# exact version because Colab's preinstalled CUDA toolchain changes
+# frequently and bitsandbytes ships frequent compatibility patches for it.
+# If you need strict reproducibility, run `pip freeze` after installation
+# and record the resolved version.
+
+transformers==4.44.0
+peft==0.12.0
+bitsandbytes
+accelerate==0.33.0
+datasets==2.20.0
+trl==0.9.6
+sentencepiece
+protobuf
+huggingface_hub==0.23.2
