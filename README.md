@@ -29,7 +29,7 @@ included — not just the writeup.
 
 | | |
 |---|---|
-| **Base model** | [`humain-ai/ALLaM-7B-Instruct-preview`](https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview) (frozen — never modified, see [`CLAUDE.md`](CLAUDE.md)) |
+| **Base model** | [`humain-ai/ALLaM-7B-Instruct-preview`](https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview) (frozen — never modified) |
 | **Dialect** | Najdi Arabic (Riyadh / central Saudi Arabia) |
 | **Vertical** | Government services + customer service conversations |
 | **Dataset** | [`HeshamHaroon/saudi-dialect-conversations`](https://huggingface.co/datasets/HeshamHaroon/saudi-dialect-conversations) (public, filtered) |
